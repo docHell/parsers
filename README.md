@@ -1,5 +1,6 @@
 # inspire-parser
-Powerful XML parser to deal with Inspire and OGC standards
+Powerful XML parser to deal with Inspire and OGC standarts, based on InspireParser by jdesboeufs but with other otherCitationDetails and DQ_AbsoluteExternalPositionalAccuracy
+
 
 [![npm version](https://img.shields.io/npm/v/inspire-parser.svg)](https://www.npmjs.com/package/inspire-parser)
 [![Circle CI](https://circleci.com/gh/sgmap-inspire/parsers/tree/master.svg?style=shield)](https://circleci.com/gh/sgmap-inspire/parsers/tree/master)
