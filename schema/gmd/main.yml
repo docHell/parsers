@@ -56,6 +56,10 @@ MD_AbstractIdentification:
       type: string
       accept: LanguageCode
       fallbackText: true
+    otherCitationDetails:
+      type: string
+      accept: CharacterString
+      fallbackText: true
     characterSet:
       type: string
       accept: MD_CharacterSetCode
@@ -137,8 +141,20 @@ DQ_DataQuality:
   properties:
     lineage:
       accept: LI_Lineage
+    report:
+      accept: DQ_AbsoluteExternalPositionalAccuracy
     scope:
       accept: DQ_Scope
+
+DQ_AbsoluteExternalPositionalAccuracy:
+  properties:
+    result:
+      accept: DQ_QuantitativeResult
+
+DQ_QuantitativeResult:
+  properties:
+    value:
+      accept: Record
 
 LI_Lineage:
   properties:
@@ -175,6 +191,8 @@ CI_Citation:
     date:
       accept: CI_Date
       array: true
+    otherCitationDetails:
+      accept: CharacterString      
 
 CI_Date:
   properties:

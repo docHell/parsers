@@ -10,6 +10,11 @@ RecordBase:
         type:
             type: string
 
+        # custom RNDT
+
+        Real:
+            type: string
+
         # Relation to Person/Organization
         publisher:
             type: string
