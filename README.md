@@ -1,4 +1,4 @@
-# inspire-parser
+# inspire-parser-quality
 Powerful XML parser to deal with Inspire and OGC standarts, based on InspireParser by jdesboeufs but with other otherCitationDetails and DQ_AbsoluteExternalPositionalAccuracy
 
 
@@ -17,7 +17,7 @@ Powerful XML parser to deal with Inspire and OGC standarts, based on InspirePars
 ### Installation
 
 ```
-npm install -g inspire-parser
+npm i inspire-parser-quality
 ```
 
 ### CLI
@@ -31,7 +31,7 @@ cat metadata.xml | inspire2json
 ### Installation
 
 ```
-npm install inspire-parser
+npm i inspire-parser-quality
 ```
 
 ### Basic
